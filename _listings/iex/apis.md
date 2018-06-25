@@ -3,12 +3,12 @@ name: IEX
 x-slug: iex
 description: IEX, the Investors Exchange, is a fair, simple and transparent stock
   exchange dedicated to investor and issuer protection.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
 x-kinRank: "9"
-x-alexaRank: "225220"
+x-alexaRank: "166667"
 tags: Historical
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/iex/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +16,7 @@ apis:
   x-api-slug: iex-trading-api
   description: HIST will provide the output of IEX data products for download on a
     T+1 basis. Data will remain available for the trailing twelve months.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0//hist
   tags: Market Data,Historical
@@ -26,7 +26,7 @@ apis:
 - name: IEX Trading API Historical Summary
   x-api-slug: iex-trading-api
   description: See our stats page for a reference of the keys.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0//stats/historical
   tags: Market Data,Historical
@@ -37,7 +37,7 @@ apis:
   x-api-slug: iex-trading-api
   description: IEX, the Investors Exchange, is a fair, simple and transparent stock
     exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0
   tags: Historical
