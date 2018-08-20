@@ -9,29 +9,18 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-clim
 x-kinRank: "9"
 x-alexaRank: "617213"
 tags: Historical
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-20"
+modified: "2018-08-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/climacell/apis.md
 specificationVersion: "0.14"
 apis:
-- name: ClimaCell Post Historical
+- name: ClimaCell
   x-api-slug: climacell
-  description: "## Historical Weather Data\nThe ```historical``` API call provides
-    a time-series of weather information for a specific location and time period.
-    The location can be specified as a geocode, or one of your own defined locations
-    (see ```locations``` API calls). The weather parameters returned are detailed
-    in the __Weather Data__ section.\n###\nNOTES:\nFor the current release, the ```historical```
-    call provides data for non\xADprecipitation parameters only, all the way to 1997.
-    In addition, you can get precipitation data up to 6 hours back. In the upcoming
-    releases, the API will include precipitation data starting from Aug 2017 onward
-    (ClimaCell\u2019s proprietary precipitation model) and precipitation classification
-    (snow, rain, freezing rain) starting from Jan 2018.\nThe farther back in history
-    you go, the less comprehensive the weather data will be, as a result of measurements
-    availability for that period of time."
+  description: the-climacell-rest-api-provides-access-to-high-resolution-weather-data-for-locations-across-the-u-s--with-global-data-coming-soon--it-uses-https-and-requires-an-access-token-key--the-api-requests-carry-query-parameters-and-the-responses-return-results-in-json-format-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
   humanURL: https://www.climacell.co
-  baseURL: https://api2.climacell.co//v2//historical
-  tags: Weather,Historical
+  baseURL: https://api2.climacell.co//v2
+  tags: Weather, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/climacell/historical-post-openapi.md
@@ -49,6 +38,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/climacell/openapi.md
 x-common:
+- type: x-api-stack
+  url: http://climacell.stack.network
 - type: x-blog
   url: https://www.climacell.co/blog/
 - type: x-crunchbase

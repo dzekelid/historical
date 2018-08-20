@@ -1,41 +1,49 @@
 ---
 name: LinkedIn
 x-slug: linkedin
-description: 500 million+ members | Manage your professional identity. Build and engage
-  with your professional network. Access knowledge, insights and opportunities.
+description: DZone Software provides tools and processes to help customers accelerate
+  productivity through agile learning and knowledge-centered collaboration.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
 x-kinRank: "8"
 x-alexaRank: "34"
 tags: Historical
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-20"
+modified: "2018-08-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
 apis:
-- name: LinkedIn Get Companies Historical Follow Statistics
+- name: LinkedIn
   x-api-slug: linkedin
-  description: Get companies  historical follow statistics
+  description: bring-user-profiles-and-professional-networks-to-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1//companies/{id}/historical-follow-statistics
-  tags: Companies, , Historical, Follow, Statistics
+  baseURL: https://api.linkedin.com//v1
+  tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
+    Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
+    SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
+    Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/companiesidhistoricalfollowstatistics-get-openapi.md
-- name: LinkedIn Get Companies Historical Status Update Statistics
+- name: LinkedIn
   x-api-slug: linkedin
-  description: Get companies  historical status update statistics
+  description: bring-user-profiles-and-professional-networks-to-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1//companies/{id}/historical-status-update-statistics
-  tags: Companies, , Historical, Status, Update, Statistics
+  baseURL: https://api.linkedin.com//v1
+  tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
+    Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
+    SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
+    Relative Data, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/companiesidhistoricalfollowstatistics-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/companiesidhistoricalstatusupdatestatistics-get-openapi.md
 - name: LinkedIn
   x-api-slug: linkedin
-  description: 500 million+ members | Manage your professional identity. Build and
-    engage with your professional network. Access knowledge, insights and opportunities.
+  description: DZone Software provides tools and processes to help customers accelerate
+    productivity through agile learning and knowledge-centered collaboration.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
@@ -44,6 +52,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/openapi.md
 x-common:
+- type: x-api-stack
+  url: http://linkedin.stack.network
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
 - type: x-base

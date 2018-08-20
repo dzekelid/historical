@@ -7,212 +7,702 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Historical
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-20"
+modified: "2018-08-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Currencies Convert Historical Value
-  x-api-slug: xignite-currencies
-  description: Convert value from one currency to another as of a historical date.
+- name: Xignite BATS Real Time
+  x-api-slug: xignite-bats-real-time
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//ConvertHistoricalValue
-  tags: Market Data,Convert, Historical, Value
+  baseURL: https://batsrealtime.xignite.com/xBATSRealTime.json/XigniteBATSRealTime
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Bonds
+  x-api-slug: xignite-bonds
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Calendar
+  x-api-slug: xignite-calendar
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Currencies
+  x-api-slug: xignite-currencies
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rate Tables
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns historical currency cross-rate tables for a range of dates.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTables
-  tags: Market Data,Historical, Cross, Rate, Tables
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rate Tables Bid Ask
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns historical currency cross-rate tables for a range of dates.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTablesBidAsk
-  tags: Market Data,Historical, Cross, Rate, Tables, Bid, Ask
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rate Table
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns a historical currency cross-rate table.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTable
-  tags: Market Data,Historical, Cross, Rate, Table
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rate Table Bid Ask
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns a historical currency cross-rate table.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTableBidAsk
-  tags: Market Data,Historical, Cross, Rate, Table, Bid, Ask
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rate Table As H T M L
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns a historical currency cross-rate table as an HTML Output.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTableAsHTML
-  tags: Market Data,Historical, Cross, Rate, Table, As, H, T, M, L
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rate
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns a cross-rate as of a historical date.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRate
-  tags: Market Data,Historical, Cross, Rate
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rates
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns multiple cross-rates as of a historical date.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRates
-  tags: Market Data,Historical, Cross, Rates
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rate Bid Ask
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns a cross-rate with bid/ask as of a historical date.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateBidAsk
-  tags: Market Data,Historical, Cross, Rate, Bid, Ask
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rates Bid Ask
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns multiple cross-rates with bid/ask as of a historical date.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesBidAsk
-  tags: Market Data,Historical, Cross, Rates, Bid, Ask
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rates Range
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: This operation returns a range of cross-rates for a currency pair.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesRange
-  tags: Market Data,Historical, Cross, Rates, Range
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rates Bid Ask Range
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: This operation returns a range of cross-rates for a currency pair.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesBidAskRange
-  tags: Market Data,Historical, Cross, Rates, Bid, Ask, Range
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rates As Of
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: This operation returns a range of cross-rates for a currency pair.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesAsOf
-  tags: Market Data,Historical, Cross, Rates, As, Of
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
-- name: Xignite Currencies Get Historical Cross Rates Bid Ask As Of
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: This operation returns a range of cross-rates for a currency pair.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesBidAskAsOf
-  tags: Market Data,Historical, Cross, Rates, Bid, Ask, As, Of
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
-- name: Xignite Currencies Get Mutiple Historical Cross Rates
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns multiple cross-rates as of a historical date.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetMutipleHistoricalCrossRates
-  tags: Market Data,Mutiple, Historical, Cross, Rates
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getmutiplehistoricalcrossrates-get-openapi.md
-- name: Xignite Currencies Get Average Historical Cross Rates
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: This operation returns an array average daily historical cross-rates
-    for a period.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetAverageHistoricalCrossRates
-  tags: Market Data,Average, Historical, Cross, Rates
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getmutiplehistoricalcrossrates-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrates-get-openapi.md
-- name: Xignite Currencies Get Average Historical Cross Rate
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: This operation returns an average daily historical cross-rates for
-    a period.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetAverageHistoricalCrossRate
-  tags: Market Data,Average, Historical, Cross, Rate
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getmutiplehistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrates-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrate-get-openapi.md
-- name: Xignite Currencies Get Historical Monthly Cross Rates Range
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: This operation returns a complete range of stock quotes for a currency
-    pair.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalMonthlyCrossRatesRange
-  tags: Market Data,Historical, Monthly, Cross, Rates, Range
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getmutiplehistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrate-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlycrossratesrange-get-openapi.md
-- name: Xignite Currencies Get Historical Ticks
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns a range of ticks for a currency pair.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalTicks
-  tags: Market Data,Historical, Ticks
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getmutiplehistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlycrossratesrange-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
-- name: Xignite Currencies Get Historical High Low
+- name: Xignite Currencies
   x-api-slug: xignite-currencies
-  description: Returns the high and the low ticks for a historical time range.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalHighLow
-  tags: Market Data,Historical, High, Low
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/converthistoricalvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetable-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratetableashtml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getmutiplehistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getaveragehistoricalcrossrate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlycrossratesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
 - name: Xignite Currencies
@@ -226,274 +716,1029 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Futures Get Historical Future Strip
-  x-api-slug: xignite-futures
-  description: Returns a future strip for a commodity.
+- name: Xignite Fact Set Estimates
+  x-api-slug: xignite-fact-set-estimates
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalFutureStrip
-  tags: Market Data,Historical, Future, Strip
+  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Futures
+  x-api-slug: xignite-futures
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
-- name: Xignite Futures Get Historical Swap Strip
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a future strip for a commodity.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalSwapStrip
-  tags: Market Data,Historical, Swap, Strip
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
-- name: Xignite Futures Get Historical Future
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a historical quote for a future contract.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalFuture
-  tags: Market Data,Historical, Future
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
-- name: Xignite Futures Get Historical Futures
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns historical quotes for multiple future contracts.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalFutures
-  tags: Market Data,Historical, Futures
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
-- name: Xignite Futures Get All Historical Futures With Status
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns historical quotes for all contracts for a commodity as of a
-    specific date including status information.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetAllHistoricalFuturesWithStatus
-  tags: Market Data,Historical, Futures, With, Status
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
-- name: Xignite Futures Get All Historical Futures
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns historical quotes for all contracts for a commodity as of a
-    specific date.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetAllHistoricalFutures
-  tags: Market Data,Historical, Futures
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
-- name: Xignite Futures Get Historical Future Range
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a range of historical quotes for a future contract.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalFutureRange
-  tags: Market Data,Historical, Future, Range
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
-- name: Xignite Futures Get Historical Swap
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a historical quote for a future swap.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalSwap
-  tags: Market Data,Historical, Swap
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
-- name: Xignite Futures Get Historical Swap Range
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a range of historical quotes for a future swap.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalSwapRange
-  tags: Market Data,Historical, Swap, Range
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
-- name: Xignite Futures Get Historical Swaps
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns historical quotes for multiple future swaps.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalSwaps
-  tags: Market Data,Historical, Swaps
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
-- name: Xignite Futures Get All Historical Swaps
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns historical quotes for all contracts for a commodity swap as
-    of a specific date.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetAllHistoricalSwaps
-  tags: Market Data,Historical, Swaps
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
-- name: Xignite Futures Get Historical Commodity Range
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a range of historical quotes for a future contract.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalCommodityRange
-  tags: Market Data,Historical, Commodity, Range
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
-- name: Xignite Futures Get Historical Commodity Monthly Range
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a range of historical quotes for a future contract.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalCommodityMonthlyRange
-  tags: Market Data,Historical, Commodity, Monthly, Range
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
-- name: Xignite Futures Get Historical Spot Range
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a range of commodity spot prices for a commodity.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalSpotRange
-  tags: Market Data,Historical, Spot, Range
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
-- name: Xignite Futures Get Historical Spot Monthly Range
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a range of commodity spot prices for a commodity.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalSpotMonthlyRange
-  tags: Market Data,Historical, Spot, Monthly, Range
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
-- name: Xignite Futures Get Historical Ticks
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a historical range of ticks for a security.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalTicks
-  tags: Market Data,Historical, Ticks
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
-- name: Xignite Futures Get Historical Ticks As Of Date
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns a historical range of ticks for a security.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalTicksAsOfDate
-  tags: Market Data,Historical, Ticks, As, Of, Date
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
-- name: Xignite Futures Get Historical Future Chart
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Get a standard historical price chart for a future contract.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: 'https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Future, '
-  tags: Market Data,Historical, Future, Chart
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
-- name: Xignite Futures Get Historical Future Chart Binary
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Get a standard historical price chart for a future contract in binary
-    format.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Future,
-    , Binary
-  tags: Market Data,Historical, Future, Chart, Binary
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
-- name: Xignite Futures Get Historical Future Chart Custom
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Get a custom historical chart for a future contract in binary format.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Future,
-    , Custom
-  tags: Market Data,Historical, Future, Chart, Custom
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-get-openapi.md
-- name: Xignite Futures Get Historical Future Chart Custom Binary
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Draw a custom historical chart for a future contract.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Future,
-    , Custom, Binary
-  tags: Market Data,Historical, Future, Chart, Custom, Binary
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-binary-get-openapi.md
-- name: Xignite Futures Get Historical Commodity Chart
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Get a historical chart for a commodity.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: 'https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Commodity, '
-  tags: Market Data,Historical, Commodity, Chart
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-binary-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity-get-openapi.md
-- name: Xignite Futures Get Historical Commodity Chart Binary
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Get a historical chart for a commodity in binary format.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Commodity,
-    , Binary
-  tags: Market Data,Historical, Commodity, Chart, Binary
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--binary-get-openapi.md
-- name: Xignite Futures Get Historical Commodity Chart Custom
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Get a custom historical chart for a commodity in binary format.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Commodity,
-    , Custom
-  tags: Market Data,Historical, Commodity, Chart, Custom
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--binary-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--custom-get-openapi.md
-- name: Xignite Futures Get Historical Commodity Chart Custom Binary
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Draw a custom historical chart for a future contract.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures/Historical, Commodity,
-    , Custom, Binary
-  tags: Market Data,Historical, Commodity, Chart, Custom, Binary
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--custom-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--custom-binary-get-openapi.md
-- name: Xignite Futures Get Historical Chart Design
+- name: Xignite Futures
   x-api-slug: xignite-futures
-  description: Returns the default settings for the historical future chart.
+  description: provide-delayed-and-historical-commodity-quote-information-from-supported-exchanges-nymex----
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures/Historical, , Design
-  tags: Market Data,Historical, Chart, Design
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturestrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapstrip-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuture-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturerange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getallhistoricalswaps-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommodityrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalcommoditymonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalspotmonthlyrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalticksasofdate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-future--custom-binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--binary-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--custom-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical-commodity--custom-binary-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/historical--design-get-openapi.md
 - name: Xignite Futures
@@ -507,25 +1752,45 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Global Futures Get Historical Swap Quotes
-  x-api-slug: xignite-global-futures
-  description: Returns historical swap quotes within a date range
+- name: Xignite Global Currencies File
+  x-api-slug: xignite-global-currencies-file
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//GetHistoricalSwapQuotes
-  tags: Historical, Swap, Quotes
+  baseURL: https://cloudfiles.xignite.com/xGlobalCurrenciesFile.json/XigniteGlobalCurrenciesFile
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Futures
+  x-api-slug: xignite-global-futures
+  description: this-web-service-provides-global-delayed-stock-quotes-and-for-u-s--and-international-equities-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapquotes-get-openapi.md
-- name: Xignite Global Futures Get Historical Future Quotes Range
+- name: Xignite Global Futures
   x-api-slug: xignite-global-futures
-  description: Returns historical future quotes on a future contract within a date
-    range
+  description: this-web-service-provides-global-delayed-stock-quotes-and-for-u-s--and-international-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//GetHistoricalFutureQuotesRange
-  tags: Historical, Future, Quotes, Range
+  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapquotes-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalfuturequotesrange-get-openapi.md
 - name: Xignite Global Futures
@@ -539,124 +1804,268 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Global Historical Get Global Historical Quote
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: Returns a quote as of a historical date. This includes the adjusted
-    price as specified.
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalQuote
-  tags: Market Data,Global, Historical, Quote
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Quotes
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: Returns quotes as of a historical date. This includes the adjusted
-    price as specified.
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalQuotes
-  tags: Market Data,Global, Historical, Quotes
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Quotes As Of
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: This operation returns a range of quotes for a security.
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalQuotesAsOf
-  tags: Market Data,Global, Historical, Quotes, As, Of
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Quotes Range
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: This operation returns a complete range of stock quotes for a given
-    equity. This includes the adjusted price as specified.
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalQuotesRange
-  tags: Market Data,Global, Historical, Quotes, Range
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Quotes Range Extended
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: This operation returns a complete range of global historical quotes
-    extended for a given equity. This includes the adjusted price as specified.
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalQuotesRangeExtended
-  tags: Market Data,Global, Historical, Quotes, Range, Extended
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Weekly Quotes Range
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: Returns a range of weekly Global Historical quotes for a security.
-    For more information, go to http://www.xignite.com/
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalWeeklyQuotesRange
-  tags: Market Data,Global, Historical, Weekly, Quotes, Range
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrange-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Weekly Quotes Range Extended
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: Returns a range of weekly Global Historical quotes extended for a security.
-    For more information, go to http://www.xignite.com/
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalWeeklyQuotesRangeExtended
-  tags: Market Data,Global, Historical, Weekly, Quotes, Range, Extended
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrangeextended-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Quarterly Quotes Range
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: Returns a range of quarterly Global Historical quotes for a security.
-    For more information, go to http://www.xignite.com/
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalQuarterlyQuotesRange
-  tags: Market Data,Global, Historical, Quarterly, Quotes, Range
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrangeextended-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquarterlyquotesrange-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Statistics
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: Returns Global Historical statistics for a security. For more information,
-    go to http://www.xignite.com/
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalStatistics
-  tags: Market Data,Global, Historical, Statistics
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquarterlyquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalstatistics-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Monthly Quotes Range
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: This operation returns a range of monthly quotes for an equity based
-    on the specified date range. This includes the adjusted price as specified.
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalMonthlyQuotesRange
-  tags: Market Data,Global, Historical, Monthly, Quotes, Range
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquarterlyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalstatistics-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalmonthlyquotesrange-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Monthly Quotes Range Extended
+- name: Xignite Global Historical
   x-api-slug: xignite-global-historical
-  description: This operation returns a range of monthly quotes extended for an equity
-    based on the specified date range. This includes the adjusted price as specified.
+  description: ondemand-global-historical-quotes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalMonthlyQuotesRangeExtended
-  tags: Market Data,Global, Historical, Monthly, Quotes, Range, Extended
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalweeklyquotesrangeextended-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalquarterlyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalstatistics-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalmonthlyquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getglobalhistoricalmonthlyquotesrangeextended-get-openapi.md
 - name: Xignite Global Historical
@@ -670,44 +2079,94 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Global Indices Historical Get Historical Index Values
-  x-api-slug: xignite-global-indices-historical
-  description: Get historical index values.
+- name: Xignite Global Holidays
+  x-api-slug: xignite-global-holidays
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//GetHistoricalIndexValues
-  tags: Market Data,Historical, Index, Values
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Indices
+  x-api-slug: xignite-global-indices
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalindices.xignite.com/xglobalindices.json/XigniteGlobalIndices
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Indices Historical
+  x-api-slug: xignite-global-indices-historical
+  description: this-web-service-provides-global-historical-information-for-u-s--and-international-indices-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindexvalues-get-openapi.md
-- name: Xignite Global Indices Historical Get Historical Indices Value
+- name: Xignite Global Indices Historical
   x-api-slug: xignite-global-indices-historical
-  description: Get historical indices value.
+  description: this-web-service-provides-global-historical-information-for-u-s--and-international-indices-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//GetHistoricalIndicesValue
-  tags: Market Data,Historical, Indices, Value
+  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindexvalues-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindicesvalue-get-openapi.md
-- name: Xignite Global Indices Historical Get Historical Index Value
+- name: Xignite Global Indices Historical
   x-api-slug: xignite-global-indices-historical
-  description: Get historical index value.
+  description: this-web-service-provides-global-historical-information-for-u-s--and-international-indices-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//GetHistoricalIndexValue
-  tags: Market Data,Historical, Index, Value
+  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindexvalues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindicesvalue-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindexvalue-get-openapi.md
-- name: Xignite Global Indices Historical Get Historical Index Values Trailing
+- name: Xignite Global Indices Historical
   x-api-slug: xignite-global-indices-historical
-  description: Get historical index values trailing.
+  description: this-web-service-provides-global-historical-information-for-u-s--and-international-indices-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//GetHistoricalIndexValuesTrailing
-  tags: Market Data,Historical, Index, Values, Trailing
+  baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindexvalues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindicesvalue-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindexvalue-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalindexvaluestrailing-get-openapi.md
 - name: Xignite Global Indices Historical
@@ -721,74 +2180,166 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Global Metals Get Historical Metal Quotes
-  x-api-slug: xignite-global-metals
-  description: Get cross sectional historical metal quotes at a given time.
+- name: Xignite Global Indices Real Time
+  x-api-slug: xignite-global-indices-real-time
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetHistoricalMetalQuotes
-  tags: Market Data,Historical, Metal, Quotes
+  baseURL: https://globalindicesrealtime.xignite.com/xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Master
+  x-api-slug: xignite-global-master
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalmaster.xignite.com/xglobalmaster.json/XigniteGlobalMaster
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Metals
+  x-api-slug: xignite-global-metals
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotes-get-openapi.md
-- name: Xignite Global Metals Get Historical Metal Quote
+- name: Xignite Global Metals
   x-api-slug: xignite-global-metals
-  description: Get historical metal quote at a given time.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetHistoricalMetalQuote
-  tags: Market Data,Historical, Metal, Quote
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotes-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquote-get-openapi.md
-- name: Xignite Global Metals Get Latest Historical Metal Quote
+- name: Xignite Global Metals
   x-api-slug: xignite-global-metals
-  description: Get historical metal quote by a given time.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetLatestHistoricalMetalQuote
-  tags: Market Data,Latest, Historical, Metal, Quote
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquote-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
-- name: Xignite Global Metals Get Latest Historical Metal Quotes
+- name: Xignite Global Metals
   x-api-slug: xignite-global-metals
-  description: Get cross sectional historical metal quotes by a given time.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetLatestHistoricalMetalQuotes
-  tags: Market Data,Latest, Historical, Metal, Quotes
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquotes-get-openapi.md
-- name: Xignite Global Metals Get Historical Metal Quotes Range
+- name: Xignite Global Metals
   x-api-slug: xignite-global-metals
-  description: Get historical metal quotes time series.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetHistoricalMetalQuotesRange
-  tags: Market Data,Historical, Metal, Quotes, Range
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquotes-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotesrange-get-openapi.md
-- name: Xignite Global Metals Get London Historical Metal Quotes Range
+- name: Xignite Global Metals
   x-api-slug: xignite-global-metals
-  description: Get historical metal quotes based on Legacy London spot prices.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetLondonHistoricalMetalQuotesRange
-  tags: Market Data,London, Historical, Metal, Quotes, Range
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotesrange-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlondonhistoricalmetalquotesrange-get-openapi.md
-- name: Xignite Global Metals Get Historical London Fixing Range
+- name: Xignite Global Metals
   x-api-slug: xignite-global-metals
-  description: Get historical london fixing metal quotes time series.
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetHistoricalLondonFixingRange
-  tags: Market Data,Historical, London, Fixing, Range
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlatesthistoricalmetalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmetalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getlondonhistoricalmetalquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallondonfixingrange-get-openapi.md
 - name: Xignite Global Metals
@@ -802,47 +2353,72 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Global News Get Historical Releases By Security
+- name: Xignite Global News
   x-api-slug: xignite-global-news
-  description: Return press releases headlines for a security and a date range.
+  description: financial-news-apis-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.xml///GetHistoricalReleasesBySecurity
-  tags: Market Data,Historical, Releases, Security
+  baseURL: https://globalnews.xignite.com/xGlobalNews.xml/
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalreleasesbysecurity-get-openapi.md
-- name: Xignite Global News Get Historical Security Headlines
+- name: Xignite Global News
   x-api-slug: xignite-global-news
-  description: Returns all headlines that were published in a specified time frame
-    for a given security.
+  description: financial-news-apis-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.xml///GetHistoricalSecurityHeadlines
-  tags: Market Data,Historical, Security, Headlines
+  baseURL: https://globalnews.xignite.com/xGlobalNews.xml/
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalreleasesbysecurity-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalsecurityheadlines-get-openapi.md
-- name: Xignite Global News Get Historical Market Headlines
+- name: Xignite Global News
   x-api-slug: xignite-global-news
-  description: Returns all market headlines that were published in a specified time
-    frame.
+  description: financial-news-apis-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.xml///GetHistoricalMarketHeadlines
-  tags: Market Data,Historical, Market, Headlines
+  baseURL: https://globalnews.xignite.com/xGlobalNews.xml/
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalreleasesbysecurity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalsecurityheadlines-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmarketheadlines-get-openapi.md
-- name: Xignite Global News Get Historical Market Headlines By Sector
+- name: Xignite Global News
   x-api-slug: xignite-global-news
-  description: Returns all market headlines that were published in a specified time
-    frame for a specified sector.
+  description: financial-news-apis-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.xml///GetHistoricalMarketHeadlinesBySector
-  tags: Market Data,Historical, Market, Headlines, Sector
+  baseURL: https://globalnews.xignite.com/xGlobalNews.xml/
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalreleasesbysecurity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalsecurityheadlines-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmarketheadlines-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmarketheadlinesbysector-get-openapi.md
 - name: Xignite Global News
@@ -856,178 +2432,523 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Historical Get Historical Quote Adjusted
-  x-api-slug: xignite-historical
-  description: Returns a quote as of a historical date. This includes split and dividends
-    adjusted price.
+- name: Xignite Global Option Master
+  x-api-slug: xignite-global-option-master
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuoteAdjusted
-  tags: Market Data,Historical, Quote, Adjusted
+  baseURL: https://globaloptionmaster.xignite.com/xGlobalOptionMaster.json/XigniteGlobalOptionMaster
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Options
+  x-api-slug: xignite-global-options
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Options File
+  x-api-slug: xignite-global-options-file
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://cloudfiles.xignite.com/xGlobalOptionsFile.json/XigniteGlobalOptionsFile
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Real Time Futures
+  x-api-slug: xignite-global-real-time-futures
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Global Real Time Options
+  x-api-slug: xignite-global-real-time-options
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Historical
+  x-api-slug: xignite-historical
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
-- name: Xignite Historical Get Historical Quotes Adjusted
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: Returns a quote as of a historical date. This includes split and dividends
-    adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesAdjusted
-  tags: Market Data,Historical, Quotes, Adjusted
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
-- name: Xignite Historical Get Historical Monthly Quotes Range Adjusted
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns end of month quotes for a US equity. This includes
-    split and dividends adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalMonthlyQuotesRangeAdjusted
-  tags: Market Data,Historical, Monthly, Quotes, Range, Adjusted
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
-- name: Xignite Historical Get Historical Quotes As Of Adjusted
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns a range of quotes for a security. This includes
-    split and dividends adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesAsOfAdjusted
-  tags: Market Data,Historical, Quotes, As, Adjusted
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
-- name: Xignite Historical Get Historical Quotes Range Adjusted
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns a complete range of stock quotes for a US equity.
-    This includes and dividends adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesRangeAdjusted
-  tags: Market Data,Historical, Quotes, Range, Adjusted
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
-- name: Xignite Historical Get Historical Weekly Quotes Range Adjusted
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns end of week quotes for a US equity. This includes
-    split and dividends adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalWeeklyQuotesRangeAdjusted
-  tags: Market Data,Historical, Weekly, Quotes, Range, Adjusted
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
-- name: Xignite Historical Get Historical Quarterly Quotes Range Adjusted
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns end of quarter quotes for a US equity. This
-    includes split and dividends adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuarterlyQuotesRangeAdjusted
-  tags: Market Data,Historical, Quarterly, Quotes, Range, Adjusted
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
-- name: Xignite Historical Get Historical High Low
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: Returns a historical high low for a time range.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalHighLow
-  tags: Market Data,Historical, High, Low
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
-- name: Xignite Historical Get Historical Quote
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: Returns a quote as of a historical date. This includes split adjusted
-    price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuote
-  tags: Market Data,Historical, Quote
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
-- name: Xignite Historical Get Historical Quotes
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: Returns a quote as of a historical date. This includes split adjusted
-    price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotes
-  tags: Market Data,Historical, Quotes
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotes-get-openapi.md
-- name: Xignite Historical Get Historical Quotes As Of
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns a range of quotes for a security.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesAsOf
-  tags: Market Data,Historical, Quotes, As, Of
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotes-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasof-get-openapi.md
-- name: Xignite Historical Get Historical Quotes Range
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns a complete range of stock quotes for a US equity.
-    This includes split adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesRange
-  tags: Market Data,Historical, Quotes, Range
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasof-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrange-get-openapi.md
-- name: Xignite Historical Get Historical Monthly Quotes Range
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns end of month quotes for a US equity. This includes
-    split adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalMonthlyQuotesRange
-  tags: Market Data,Historical, Monthly, Quotes, Range
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrange-get-openapi.md
-- name: Xignite Historical Get Historical Weekly Quotes Range
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns end of week quotes for a US equity. This includes
-    split adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalWeeklyQuotesRange
-  tags: Market Data,Historical, Weekly, Quotes, Range
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrange-get-openapi.md
-- name: Xignite Historical Get Historical Quarterly Quotes Range
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: This operation returns end of quarter quotes for a US equity. This
-    includes split adjusted price.
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuarterlyQuotesRange
-  tags: Market Data,Historical, Quarterly, Quotes, Range
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrange-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrange-get-openapi.md
-- name: Xignite Historical Get Historical Statistics
+- name: Xignite Historical
   x-api-slug: xignite-historical
-  description: Returns Historical statistics for a security. For more information,
-    go to http://www.xignite.com/
+  description: this-web-service-provides-historical-security-pricing-for-us-equities-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalStatistics
-  tags: Market Data,Historical, Statistics
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalhighlow-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquote-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotes-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesasof-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyquotesrange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalquarterlyquotesrange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalstatistics-get-openapi.md
 - name: Xignite Historical
@@ -1041,34 +2962,52 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Interbanks Get Historical LIBOR
+- name: Xignite Interbanks
   x-api-slug: xignite-interbanks
-  description: ""
+  description: provide-information-about-global-interbank-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetHistoricalLIBOR
-  tags: Market Data,Historical, LIBOR
+  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallibor-get-openapi.md
-- name: Xignite Interbanks Get Historical Rates
+- name: Xignite Interbanks
   x-api-slug: xignite-interbanks
-  description: Returns a rate for a range of dates.
+  description: provide-information-about-global-interbank-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetHistoricalRates
-  tags: Market Data,Historical, Rates
+  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallibor-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalrates-get-openapi.md
-- name: Xignite Interbanks Get Historical Rate Family
+- name: Xignite Interbanks
   x-api-slug: xignite-interbanks
-  description: Returns a rate family and for a range of dates.
+  description: provide-information-about-global-interbank-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetHistoricalRateFamily
-  tags: Market Data,Historical, Rate, Family
+  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallibor-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalrates-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalratefamily-get-openapi.md
 - name: Xignite Interbanks
@@ -1082,64 +3021,140 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Money Markets Get Historical Swaption
-  x-api-slug: xignite-money-markets
-  description: Returns a Swaption as of a historical date
+- name: Xignite IPOs
+  x-api-slug: xignite-ipos
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwaption
-  tags: Market Data,Historical, Swaption
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Logos
+  x-api-slug: xignite-logos
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xLogos.json/XigniteLogos
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Money Markets
+  x-api-slug: xignite-money-markets
+  description: provide-information-about-money-market-derivatives-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaption-get-openapi.md
-- name: Xignite Money Markets Get Historical Swaption Family
+- name: Xignite Money Markets
   x-api-slug: xignite-money-markets
-  description: Returns a Swaption rate Family
+  description: provide-information-about-money-market-derivatives-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwaptionFamily
-  tags: Market Data,Historical, Swaption, Family
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaption-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaptionfamily-get-openapi.md
-- name: Xignite Money Markets Get Historical Swap Rate
+- name: Xignite Money Markets
   x-api-slug: xignite-money-markets
-  description: Returns a Swap rate as of a historical date
+  description: provide-information-about-money-market-derivatives-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwapRate
-  tags: Market Data,Historical, Swap, Rate
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaption-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaptionfamily-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
-- name: Xignite Money Markets Get Historical Swap Rate Range
+- name: Xignite Money Markets
   x-api-slug: xignite-money-markets
-  description: Returns a Swap rate as of a historical date
+  description: provide-information-about-money-market-derivatives-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwapRateRange
-  tags: Market Data,Historical, Swap, Rate, Range
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaption-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaptionfamily-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
-- name: Xignite Money Markets Get Historical Swap Rate Extended
+- name: Xignite Money Markets
   x-api-slug: xignite-money-markets
-  description: Returns historical swap rate
+  description: provide-information-about-money-market-derivatives-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwapRateExtended
-  tags: Market Data,Historical, Swap, Rate, Extended
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaption-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaptionfamily-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprateextended-get-openapi.md
-- name: Xignite Money Markets Get Historical Swap Rate Extended Range
+- name: Xignite Money Markets
   x-api-slug: xignite-money-markets
-  description: Returns historical Swap rate range
+  description: provide-information-about-money-market-derivatives-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwapRateExtendedRange
-  tags: Market Data,Historical, Swap, Rate, Extended, Range
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaption-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaptionfamily-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprateextended-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprateextendedrange-get-openapi.md
 - name: Xignite Money Markets
@@ -1153,64 +3168,151 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Rates Get Historical Swap Rate
-  x-api-slug: xignite-rates
-  description: Returns a Swap rate as of a historical date
+- name: Xignite Municipal Bond Master
+  x-api-slug: xignite-municipal-bond-master
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetHistoricalSwapRate
-  tags: Market Data,Historical, Swap, Rate
+  baseURL: https://municipalbondmaster.xignite.com/xmunicipalbondmaster.json/XigniteMunicipalBondMaster
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite NASDAQ Last Sale
+  x-api-slug: xignite-nasdaq-last-sale
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://nasdaqlastsale.xignite.com/xNASDAQLastSale.json/XigniteNASDAQLastSale
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite NAVs
+  x-api-slug: xignite-navs
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://navs.xignite.com/v2/xNAVs.json/XigniteNAVs
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Rates
+  x-api-slug: xignite-rates
+  description: provide-information-about-interest-rates-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
-- name: Xignite Rates Get Historical Swap Rate Range
+- name: Xignite Rates
   x-api-slug: xignite-rates
-  description: Returns a Swap rate as of a historical date
+  description: provide-information-about-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetHistoricalSwapRateRange
-  tags: Market Data,Historical, Swap, Rate, Range
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
-- name: Xignite Rates Get Historical LIBOR
+- name: Xignite Rates
   x-api-slug: xignite-rates
-  description: ""
+  description: provide-information-about-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetHistoricalLIBOR
-  tags: Market Data,Historical, LIBOR
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallibor-get-openapi.md
-- name: Xignite Rates Get Historical Rates
+- name: Xignite Rates
   x-api-slug: xignite-rates
-  description: Returns a rate for a range of dates.
+  description: provide-information-about-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetHistoricalRates
-  tags: Market Data,Historical, Rates
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallibor-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalrates-get-openapi.md
-- name: Xignite Rates Get Historical Weekly Rates
+- name: Xignite Rates
   x-api-slug: xignite-rates
-  description: Returns a rate for a range of dates.
+  description: provide-information-about-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetHistoricalWeeklyRates
-  tags: Market Data,Historical, Weekly, Rates
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallibor-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalrates-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyrates-get-openapi.md
-- name: Xignite Rates Get Historical Rate Family
+- name: Xignite Rates
   x-api-slug: xignite-rates
-  description: Returns a rate family and for a range of dates.
+  description: provide-information-about-interest-rates-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetHistoricalRateFamily
-  tags: Market Data,Historical, Rate, Family
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswaprate-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalswapraterange-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricallibor-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalrates-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyrates-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalratefamily-get-openapi.md
 - name: Xignite Rates
@@ -1224,26 +3326,38 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite Releases Get Historical Market Headlines
+- name: Xignite Releases
   x-api-slug: xignite-releases
-  description: Returns market headlines for a date range.
+  description: company-press-release-api-list
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://http://www.xignite.com//xReleases.xml//GetHistoricalMarketHeadlines/
-  tags: Market Data,Historical,Market,Headlines
+  baseURL: https://http://www.xignite.com//xReleases.xml/
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmarketheadlines-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmarketheadlines-get-openapi.md
-- name: Xignite Releases Get Historical Security Headlines
+- name: Xignite Releases
   x-api-slug: xignite-releases
-  description: Returns headlines for a company and a date range.
+  description: company-press-release-api-list
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://http://www.xignite.com//xReleases.xml//GetHistoricalSecurityHeadlines/
-  tags: Market Data,Historical,Security,Headlines
+  baseURL: https://http://www.xignite.com//xReleases.xml/
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmarketheadlines-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmarketheadlines-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalsecurityheadlines-get-postman.md
   - type: x-openapi-spec
@@ -1259,76 +3373,166 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
-- name: Xignite VWAP Get Historical Daily VWAP
-  x-api-slug: xignite-vwap
-  description: Returns historical daily VWAP information for a date range
+- name: Xignite Statistics
+  x-api-slug: xignite-statistics
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP//GetHistoricalDailyVWAP
-  tags: Historical, Daily, VWAP
+  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite Super Quotes
+  x-api-slug: xignite-super-quotes
+  description: Financial market data on-demand. Xignite financial Web services help
+    build smarter websites and applications in minutes with zero up-front investment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://superquotes.xignite.com/xSuperQuotes.json/XigniteSuperQuotes
+  tags: Historical
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md
+- name: Xignite VWAP
+  x-api-slug: xignite-vwap
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricaldailyvwap-get-openapi.md
-- name: Xignite VWAP Get Historical VWAP
+- name: Xignite VWAP
   x-api-slug: xignite-vwap
-  description: Returns historical VWAP information for a date range
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP//GetHistoricalVWAP
-  tags: Historical, VWAP
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricaldailyvwap-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalvwap-get-openapi.md
-- name: Xignite VWAP Get Historical Monthly VWAP
+- name: Xignite VWAP
   x-api-slug: xignite-vwap
-  description: Returns historical monthly VWAP information for a date range.
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP//GetHistoricalMonthlyVWAP
-  tags: Historical, Monthly, VWAP
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricaldailyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalvwap-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyvwap-get-openapi.md
-- name: Xignite VWAP Get Historical Weekly VWAP
+- name: Xignite VWAP
   x-api-slug: xignite-vwap
-  description: Returns historical weekly VWAP information for a date range.
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP//GetHistoricalWeeklyVWAP
-  tags: Historical, Weekly, VWAP
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricaldailyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyvwap-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyvwap-get-openapi.md
-- name: Xignite VWAP Get Historical Period VWAP
+- name: Xignite VWAP
   x-api-slug: xignite-vwap
-  description: Returns historical VWAP information for a date range.
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP//GetHistoricalPeriodVWAP
-  tags: Historical, Period, VWAP
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricaldailyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyvwap-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalperiodvwap-get-openapi.md
-- name: Xignite VWAP Get Historical Intraday VWAP
+- name: Xignite VWAP
   x-api-slug: xignite-vwap
-  description: Returns a historical intraday VWAP for a security based on the trades
-    performed in a time range.
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP//GetHistoricalIntradayVWAP
-  tags: Historical, Intraday, VWAP
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricaldailyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalperiodvwap-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalintradayvwap-get-openapi.md
-- name: Xignite VWAP Get Corporate Historical VWAP
+- name: Xignite VWAP
   x-api-slug: xignite-vwap
-  description: Returns a corporate intraday VWAP for a security based on the trades
-    performed in a time range.
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP//GetCorporateHistoricalVWAP
-  tags: Corporate, Historical, VWAP
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricaldailyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalmonthlyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalweeklyvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalperiodvwap-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/gethistoricalintradayvwap-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/getcorporatehistoricalvwap-get-openapi.md
 - name: Xignite VWAP
@@ -1345,6 +3549,8 @@ apis:
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies
