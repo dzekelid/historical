@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Historical
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -3549,6 +3549,8 @@ apis:
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://xignite.stack.network
 - type: x-base

@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-clim
 x-kinRank: "9"
 x-alexaRank: "617213"
 tags: Historical
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/climacell/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,6 +38,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/climacell/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://clickatell.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://climacell.stack.network
 - type: x-blog

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Historical
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
@@ -76,6 +76,8 @@ x-common:
   url: https://github.com/dezrez
 - type: x-openapi
   url: https://api.dezrez.com:443/swagger/docs/v1
+- type: x-api-gallery
+  url: http://datumbox.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://dezrez.stack.network
 - type: x-documentation

@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Historical
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
@@ -142,6 +142,8 @@ x-common:
   url: https://drive.google.com/file/d/1vI11FNCKpv6WJ_70hoqPNMmPAkASiOU_/view?usp=sharing
 - type: x-website
   url: http://www.LogMeInInc.com
+- type: x-api-gallery
+  url: http://loginradius.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://logmein.stack.network
 - type: x-crunchbase

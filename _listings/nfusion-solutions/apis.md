@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfus
 x-kinRank: "7"
 x-alexaRank: "4970472"
 tags: Historical
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,8 +20,8 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
-  tags: New, SaaS, Technology, Enterprise, Financial Services, Metals, Market Data,
-    General Data, Relative Data, Service API
+  tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
+    Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
@@ -33,8 +33,8 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
-  tags: New, SaaS, Technology, Enterprise, Financial Services, Metals, Market Data,
-    General Data, Relative Data, Service API
+  tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
+    Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
@@ -50,8 +50,8 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
-  tags: New, SaaS, Technology, Enterprise, Financial Services, Metals, Market Data,
-    General Data, Relative Data, Service API
+  tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
+    Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
@@ -71,8 +71,8 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
-  tags: New, SaaS, Technology, Enterprise, Financial Services, Metals, Market Data,
-    General Data, Relative Data, Service API
+  tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
+    Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
@@ -96,8 +96,8 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
-  tags: New, SaaS, Technology, Enterprise, Financial Services, Metals, Market Data,
-    General Data, Relative Data, Service API
+  tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
+    Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
@@ -125,8 +125,8 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
-  tags: New, SaaS, Technology, Enterprise, Financial Services, Metals, Market Data,
-    General Data, Relative Data, Service API
+  tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
+    Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
@@ -174,6 +174,8 @@ x-common:
   url: https://api.nfusionsolutions.biz/swagger/1/swagger.json
 - type: x-website
   url: http://www.nfusionsolutions.com
+- type: x-api-gallery
+  url: http://next.caller.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://nfusion.solutions.stack.network
 - type: x-blog

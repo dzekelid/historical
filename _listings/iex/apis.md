@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.
 x-kinRank: "9"
 x-alexaRank: "166667"
 tags: Historical
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/iex/apis.md
 specificationVersion: "0.14"
 apis:
@@ -207,7 +207,7 @@ apis:
   baseURL: https://api.iextrading.com//1.0
   tags: Marketplace, Market Data, Data Provider, API Provider, Financial Services,
     Profiles, General Data, Service API, Relative Data, Pedestal, Historical Data
-    API
+    API, StreamRank, Relative StreamRank
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/iex/hist-get-openapi.md
@@ -219,7 +219,7 @@ apis:
   baseURL: https://api.iextrading.com//1.0
   tags: Marketplace, Market Data, Data Provider, API Provider, Financial Services,
     Profiles, General Data, Service API, Relative Data, Pedestal, Historical Data
-    API
+    API, StreamRank, Relative StreamRank
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/iex/hist-get-openapi.md
@@ -237,6 +237,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/iex/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://idx.broker.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://iex.stack.network
 - type: x-authentication
