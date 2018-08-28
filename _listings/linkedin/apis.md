@@ -7,50 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linked
 x-kinRank: "8"
 x-alexaRank: "34"
 tags: Historical
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
 apis:
-- name: LinkedIn
-  x-api-slug: linkedin
-  description: bring-user-profiles-and-professional-networks-to-your-apps-
+- name: LinkedIn - Get Companies Historical Follow Statistics
+  x-api-slug: companiesidhistoricalfollowstatistics-get
+  description: Get companies  historical follow statistics
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
     Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
     SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
-    Relative Data, Pedestal, Relative StreamRank, StreamRank
+    Relative Data, Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/companiesidhistoricalfollowstatistics-get-openapi.md
-- name: LinkedIn
-  x-api-slug: linkedin
-  description: bring-user-profiles-and-professional-networks-to-your-apps-
+- name: LinkedIn - Get Companies Historical Status Update Statistics
+  x-api-slug: companiesidhistoricalstatusupdatestatistics-get
+  description: Get companies  historical status update statistics
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
     Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
     SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
-    Relative Data, Pedestal, Relative StreamRank, StreamRank
+    Relative Data, Pedestal, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/companiesidhistoricalfollowstatistics-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/companiesidhistoricalstatusupdatestatistics-get-openapi.md
-- name: LinkedIn
-  x-api-slug: linkedin
-  description: DZone Software provides tools and processes to help customers accelerate
-    productivity through agile learning and knowledge-centered collaboration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
-  humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1
-  tags: Historical
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://link.fish.api.gallery.streamdata.io

@@ -8,26 +8,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Historical
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
-- name: GoToAssist Remote Support
-  x-api-slug: gotoassist-remote-support
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2A/rest/v1
-  tags: Historical
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/openapi.md
-- name: GoToMeeting
-  x-api-slug: gotomeeting
-  description: httpsgotodeveloper-logmeininc-comhowgetaccesstokenandorganizerkey
+- name: GoToMeeting - Historical meetings
+  x-api-slug: historicalmeetings-get
+  description: 'Get historical meetings for the currently authenticated organizer
+    that started within the specified date/time range. Remark: Meetings which are
+    still ongoing at the time of the request are NOT contained in the result array.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
   humanURL: http://www.LogMeInInc.com
   baseURL: https://api.getgo.com//G2M/rest
@@ -38,71 +28,43 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/historicalmeetings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/historicalmeetings-get-openapi.md
-- name: GoToMeeting
-  x-api-slug: gotomeeting
-  description: httpsgotodeveloper-logmeininc-comhowgetaccesstokenandorganizerkey
+- name: GoToMeeting - Historical meetings by organizer
+  x-api-slug: organizersorganizerkeyhistoricalmeetings-get
+  description: Get historical meetings for the specified organizer that started within
+    the specified date/time range. Meetings which are still ongoing at the time of
+    the request are not included in the result.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
   humanURL: http://www.LogMeInInc.com
   baseURL: https://api.getgo.com//G2M/rest
   tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
     Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/historicalmeetings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/historicalmeetings-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/organizersorganizerkeyhistoricalmeetings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/organizersorganizerkeyhistoricalmeetings-get-openapi.md
-- name: GoToMeeting
-  x-api-slug: gotomeeting
-  description: httpsgotodeveloper-logmeininc-comhowgetaccesstokenandorganizerkey
+- name: GoToMeeting - Historical meetings by group
+  x-api-slug: groupsgroupkeyhistoricalmeetings-get
+  description: 'Get historical meetings for the specified group that started within
+    the specified date/time range. This API call is only available to users with the
+    admin role. This API call is restricted to groups with a maximum of 50 organizers.
+    Remark: Meetings which are still ongoing at the time of the request are NOT contained
+    in the result array.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
   humanURL: http://www.LogMeInInc.com
   baseURL: https://api.getgo.com//G2M/rest
   tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
     Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/historicalmeetings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/historicalmeetings-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/organizersorganizerkeyhistoricalmeetings-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/organizersorganizerkeyhistoricalmeetings-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/groupsgroupkeyhistoricalmeetings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/groupsgroupkeyhistoricalmeetings-get-openapi.md
-- name: GoToMeeting
-  x-api-slug: gotomeeting
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2M/rest
-  tags: Historical
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/openapi.md
-- name: GoToTraining
-  x-api-slug: gototraining
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2T/rest
-  tags: Historical
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/openapi.md
-- name: GoToWebinar
-  x-api-slug: gotowebinar
-  description: todo-add-description
+- name: GoToWebinar API - Historical Webinars
+  x-api-slug: organizerkeyhistoricalwebinars-get
+  description: "Returns details for completed webinars for the specified organizer
+    and completed webinars of other organizers where the specified organizer is a
+    co-organizer.\n\nParameters:\n- organizerkey \n- fromTime\n- toTime"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
   humanURL: http://www.LogMeInInc.com
   baseURL: https://api.getgo.com//G2W/rest/organizers
@@ -113,18 +75,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/organizerkeyhistoricalwebinars-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/organizerkeyhistoricalwebinars-get-openapi.md
-- name: GoToWebinar
-  x-api-slug: gotowebinar
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2W/rest/organizers
-  tags: Historical
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/openapi.md
 x-common:
 - type: x-github
   url: https://github.com/logmein

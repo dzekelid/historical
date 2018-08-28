@@ -1,94 +1,144 @@
 {
-	"name": "Dezrez",
-	"x-slug": "dezrez",
-	"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-	"x-kinRank": "7",
-	"x-alexaRank": "385559",
-	"tags": "Historical",
-	"created": "2018-08-23",
-	"modified": "2018-08-23",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apis.md",
+	"name": "Streadata.io API Gallery - Historical",
+	"description": "This is a repository of historical APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/historical.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://historical.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "LinkedIn",
+			"x-api-slug": "linkedin",
+			"description": "DZone Software provides tools and processes to help customers accelerate productivity through agile learning and knowledge-centered collaboration.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg",
+			"humanURL": "http://linkedin.com",
+			"baseURL": "https://api.linkedin.com//v1",
+			"tags": "Historical",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyidhistoricalprices-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyidhistoricalprices-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Historical",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyidhistoricalprices-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyidhistoricalprices-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyhistoricalpricespostcodepostcode-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyhistoricalpricespostcodepostcode-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Stocklytics",
+			"x-api-slug": "stocklytics",
+			"description": "Build feature rich, fast applications and websites based around accurate stock market data. Launch in hours rather than days using the Stocklytics API. The Stocklytics API is a powerful, low-cost RESTful API allowing you to create stock/ financial based apps and websites with data from our service. Such as historical stock price data that can be used for creating stock charts and determining trends. We also offer a company financial data API which allows your to get company information for a particular Stock Code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stocklytics-logo.png",
+			"humanURL": "http://stocklytics.com",
+			"baseURL": "https://api.stocklytics.com//services/pressroom/",
+			"tags": "Historical",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyidhistoricalprices-get-postman.md"
-				},
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/stocklytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HitBTC",
+			"x-api-slug": "hitbtc",
+			"description": "We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc provides an excellent trading terminal based on professional trading software which is suitable for new and sophisticated users.    As one of our valued customers, we understand how i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png",
+			"humanURL": "https://hitbtc.com",
+			"baseURL": "https:////api/2",
+			"tags": "Historical",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyidhistoricalprices-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyhistoricalpricespostcodepostcode-get-postman.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intrinio",
+			"x-api-slug": "intrinio",
+			"description": "Intelligent Data, On Demand. The financial data platform for developers, investors, students, and educators, with over 200 feeds including real-time, intraday, EOD, and international financial data available via REST API, WebSocket, CSV, Excel, and Goo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png",
+			"humanURL": "http://www.intrinio.com",
+			"baseURL": "https:///",
+			"tags": "Historical",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyhistoricalpricespostcodepostcode-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyhistoricalpricesradius-get-postman.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/intrinio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IEX",
+			"x-api-slug": "iex",
+			"description": "IEX, the Investors Exchange, is a fair, simple and transparent stock exchange dedicated to investor and issuer protection.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg",
+			"humanURL": "https://iextrading.com",
+			"baseURL": "https://api.iextrading.com//1.0",
+			"tags": "Historical",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/apipropertyhistoricalpricesradius-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/iex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClimaCell",
+			"x-api-slug": "climacell",
+			"description": "ClimaCell provides the most accurate weather data in the world by integrating proprietary data extracted from wireless networks and other new sensing technologies with data from traditional sensors. With 90% correlation to ground truth (vs. 50% using radar), it&rsquo;s the best you can get for your enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg",
+			"humanURL": "https://www.climacell.co",
+			"baseURL": "https://api2.climacell.co//v2",
+			"tags": "Historical",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/climacell/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Historical",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "nFusion Solutions",
+			"x-api-slug": "nfusion-solutions",
+			"description": "nFusion Solutions ecosystem of products and solutions lets you power your apps, websites and software with precious metals market data directly from exchanges around the world. Built on the Azure Cloud platform, nFusion delivers a reliable and scalabl...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg",
+			"humanURL": "http://www.nfusionsolutions.com",
+			"baseURL": "https://api.nfusionsolutions.biz//",
+			"tags": "Historical",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/openapi.md"
 				}
 			]
 		},
@@ -96,59 +146,78 @@
 			"name": "Dezrez",
 			"x-api-slug": "dezrez",
 			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
 			"tags": "Historical",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical\/master\/_listings\/dezrez\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinMarketCap",
+			"x-api-slug": "coinmarketcap",
+			"description": "Cryptocurrency market cap rankings, charts, and more",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28891-pro-coinmarketcap-com.jpg",
+			"humanURL": "https://pro.coinmarketcap.com",
+			"baseURL": "https://pro-api.coinmarketcap.com//",
+			"tags": "Historical",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/coinmarketcap/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-github",
-			"url": "https:\/\/github.com\/dezrez"
-		},
-		{
-			"type": "x-openapi",
-			"url": "https:\/\/api.dezrez.com:443\/swagger\/docs\/v1"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/datumbox.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/dezrez.stack.network"
-		},
-		{
-			"type": "x-documentation",
-			"url": "https:\/\/api.dezrez.com\/swagger\/ui\/index#!\/AccountingExport"
-		},
-		{
-			"type": "x-support",
-			"url": "https:\/\/www.dezrez.com\/uk\/estate-agency-software-support"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/dezrezsoftware"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/www.dezrez.com"
-		}
-	],
+	"tags": "Historical",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "LinkedIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/linkedin/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Stocklytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/stocklytics/apis.yaml"
+		},
+		{
+			"name": "HitBTC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/apis.yaml"
+		},
+		{
+			"name": "Intrinio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/intrinio/apis.yaml"
+		},
+		{
+			"name": "IEX",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/iex/apis.yaml"
+		},
+		{
+			"name": "ClimaCell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/climacell/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "nFusion Solutions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/nfusion-solutions/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "CoinMarketCap",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/coinmarketcap/apis.yaml"
 		}
 	]
 }

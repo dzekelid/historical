@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Historical
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
+- name: Dezrez.Rezi.Client.Api - Get historical prices for a property by its Id
+  x-api-slug: apipropertyidhistoricalprices-get
+  description: Get historical prices for a property by its id.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
   humanURL: https://www.dezrez.com
   baseURL: https://api.dezrez.com//
@@ -24,53 +24,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyidhistoricalprices-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyidhistoricalprices-get-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
+- name: Dezrez.Rezi.Client.Api - Get historical prices for a property by its Id
+  x-api-slug: apipropertyhistoricalpricespostcodepostcode-get
+  description: Get historical prices for a property by its id.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
   humanURL: https://www.dezrez.com
   baseURL: https://api.dezrez.com//
   tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyidhistoricalprices-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyidhistoricalprices-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyhistoricalpricespostcodepostcode-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyhistoricalpricespostcodepostcode-get-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
+- name: Dezrez.Rezi.Client.Api - Get historical prices within a radius of a location
+  x-api-slug: apipropertyhistoricalpricesradius-get
+  description: Get historical prices within a radius of a location.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
   humanURL: https://www.dezrez.com
   baseURL: https://api.dezrez.com//
   tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyidhistoricalprices-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyidhistoricalprices-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyhistoricalpricespostcodepostcode-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyhistoricalpricespostcodepostcode-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyhistoricalpricesradius-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/apipropertyhistoricalpricesradius-get-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: Cloud based estate agent software , sales & letting agent software,
-    estate agent website design and property management software - Dezrez  Services
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: Historical
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/dezrez/openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

@@ -9,14 +9,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "3107"
 tags: Historical
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/apis.md
 specificationVersion: "0.14"
 apis:
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Get Historical Trades
+  x-api-slug: historytrades-get
+  description: Get historical trades.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
@@ -26,55 +26,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historytrades-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historytrades-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Get Historical Orders
+  x-api-slug: historyorder-get
+  description: Get historical orders.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
   tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historytrades-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historytrades-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historyorder-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historyorder-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Get Historical Trades By Specified Order
+  x-api-slug: historyorderidtrades-get
+  description: Get historical trades by specified order.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
   tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historytrades-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historytrades-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historyorder-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historyorder-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historyorderidtrades-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/historyorderidtrades-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc
-    provides an excellent trading terminal based on professional trading software
-    which is suitable for new and sophisticated users.    As one of our valued customers,
-    we understand how i...
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
-  humanURL: https://hitbtc.com
-  baseURL: https:////api/2
-  tags: Historical
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical/master/_listings/hitbtc/openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.hitbtc.com/feed/

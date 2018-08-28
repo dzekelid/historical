@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: LogMeIn
 x-complete: 1
@@ -15,6 +14,86 @@ produces:
 consumes:
 - application/json
 paths:
+  /historicalMeetings:
+    get:
+      summary: Historical meetings
+      description: 'Get historical meetings for the currently authenticated organizer
+        that started within the specified date/time range. Remark: Meetings which
+        are still ongoing at the time of the request are NOT contained in the result
+        array.'
+      operationId: HistoricalMeetingsGet
+      x-api-path-slug: historicalmeetings-get
+      parameters:
+      - in: header
+        name: Accept
+      - in: header
+        name: Content-Type
+      - in: query
+        name: endDate
+      - in: query
+        name: startDate
+      responses:
+        200:
+          description: OK
+      tags:
+      - Historical
+      - Meetings
+  /organizers/{organizerKey}/historicalMeetings:
+    get:
+      summary: Historical meetings by organizer
+      description: Get historical meetings for the specified organizer that started
+        within the specified date/time range. Meetings which are still ongoing at
+        the time of the request are not included in the result.
+      operationId: OrganizersHistoricalMeetingsByOrganizerKeyGet
+      x-api-path-slug: organizersorganizerkeyhistoricalmeetings-get
+      parameters:
+      - in: header
+        name: Accept
+      - in: header
+        name: Content-Type
+      - in: query
+        name: endDate
+      - in: path
+        name: organizerKey
+      - in: query
+        name: startDate
+      responses:
+        200:
+          description: OK
+      tags:
+      - Historical
+      - Meetings
+      - By
+      - Organizer
+  /groups/{groupkey}/historicalMeetings:
+    get:
+      summary: Historical meetings by group
+      description: 'Get historical meetings for the specified group that started within
+        the specified date/time range. This API call is only available to users with
+        the admin role. This API call is restricted to groups with a maximum of 50
+        organizers. Remark: Meetings which are still ongoing at the time of the request
+        are NOT contained in the result array.'
+      operationId: GroupsHistoricalMeetingsByGroupkeyGet
+      x-api-path-slug: groupsgroupkeyhistoricalmeetings-get
+      parameters:
+      - in: header
+        name: Accept
+      - in: header
+        name: Content-Type
+      - in: query
+        name: endDate
+      - in: path
+        name: groupkey
+      - in: query
+        name: startDate
+      responses:
+        200:
+          description: OK
+      tags:
+      - Historical
+      - Meetings
+      - By
+      - Group
   /{organizerKey}/historicalWebinars:
     get:
       summary: Historical Webinars
@@ -40,4 +119,3 @@ paths:
       tags:
       - Historical
       - Webinars
----
